@@ -106,7 +106,7 @@ function viewApplication(appNumber)
 
         let viewLink = document.createElement("a");
         $(viewLink).addClass("btn btn-primary");
-        $(viewLink).attr("href", "https://webnoc.llrnetworks.com/services/applications/view?a=" + json.number);
+        $(viewLink).attr("href", "https://merlot.llrnetworks.com/ait/applications/" + json.number);
         $(viewLink).attr("target", "_blank");
         viewLink.appendChild(document.createTextNode("View app #" + json.number + " in NetCenter"));
         modalBody.appendChild(viewLink);
